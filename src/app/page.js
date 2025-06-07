@@ -66,9 +66,9 @@ export default function HomePage() {
                       <Image
                         src={`https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/${pokemonId}.png`}
                         alt={pokemon.name}
-                        width={96}
-                        height={96}
-                        className="h-20 w-20 sm:h-24 sm:w-24"
+                        width={100}
+                        height={100}
+                        className="h-24 w-24 md:h-32 md:w-32"
                       />
                       <h2 className="text-md sm:text-lg font-semibold text-gray-200 capitalize mt-2">
                         {pokemon.name}
